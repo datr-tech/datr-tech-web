@@ -1,3 +1,4 @@
+import { HeaderNavOrganism } from '@app-dtw/core/components/organisms';
 import {
   BodyTemplate,
   FooterTemplate,
@@ -8,9 +9,10 @@ import { CContainer } from '@coreui/react';
 
 export const HomePage: IHomePage = () => {
   return (
-    <CContainer fluid className="HomePage">
+    <div className="HomePage">
+			<HeaderNavOrganism />
       <HeaderTemplate>
-        <span>Header</span>
+				<span>Banner</span>
       </HeaderTemplate>
       <BodyTemplate>
         <span>datr.tech - UNDER DEVELOPMENT</span>
@@ -18,6 +20,6 @@ export const HomePage: IHomePage = () => {
       <FooterTemplate>
         <span>Footer</span>
       </FooterTemplate>
-    </CContainer>
+    </div>
   );
 };
