@@ -1,10 +1,14 @@
 import CopyWebpackPlugin from 'copy-webpack-plugin';
 import path from 'path';
-import { Configuration } from 'webpack';
 
-const config: Configuration = {
+const config = {
+  devServer: {
+    static: path.resolve(__dirname, 'dist'),
+    port: 3000,
+    hot: true,
+  },
+  devtool: 'inline-source-map',
   entry: './src/index.tsx',
-  mode: 'production',
   module: {
     rules: [
       {
