@@ -1,4 +1,3 @@
-.dockerignore
 .editorconfig
 .mailmap
 .prettierignore
@@ -8,7 +7,6 @@ CHANGELOG.md
 commitlint.config.mjs
 compose.yaml
 cspell.json
-Dockerfile
 eslint.config.mjs
 jest.config.integration.json
 jest.config.unit.json
@@ -19,5 +17,6 @@ tsconfig.json
 .husky/
 
 coverage/
+public/
 src/
 test/
