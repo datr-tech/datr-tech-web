@@ -24,7 +24,7 @@ export default [
   {
     plugins: {
       '@typescript-eslint': typescriptEslint,
-      prettier
+      prettier,
     },
     languageOptions: {
       parser: tsParser,
