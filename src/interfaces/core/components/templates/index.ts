@@ -1,0 +1,9 @@
+export { IBodyTemplate } from './IBodyTemplate';
+export { IBodyTemplateOutput } from './IBodyTemplateOutput';
+export { IBodyTemplateProps } from './IBodyTemplateProps';
+export { IFooterTemplate } from './IFooterTemplate';
+export { IFooterTemplateOutput } from './IFooterTemplateOutput';
+export { IFooterTemplateProps } from './IFooterTemplateProps';
+export { IHeaderTemplate } from './IHeaderTemplate';
+export { IHeaderTemplateOutput } from './IHeaderTemplateOutput';
+export { IHeaderTemplateProps } from './IHeaderTemplateProps';

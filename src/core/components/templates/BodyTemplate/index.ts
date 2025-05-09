@@ -1,0 +1,1 @@
+export { BodyTemplate } from './BodyTemplate';
