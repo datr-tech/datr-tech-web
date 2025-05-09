@@ -1,7 +1,7 @@
 {
   "name": "@datr-tech/datr-tech-web",
   "description": "datr.tech public website",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": false,
   "homepage": "https://github.com/datr-tech",
   "repository": {
