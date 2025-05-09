@@ -5,14 +5,13 @@ import {
   HeaderTemplate,
 } from '@app-dtw/core/components/templates';
 import { IHomePage } from '@app-dtw/interfaces/core/components/pages';
-import { CContainer } from '@coreui/react';
 
 export const HomePage: IHomePage = () => {
   return (
     <div className="HomePage">
-			<HeaderNavOrganism />
+      <HeaderNavOrganism />
       <HeaderTemplate>
-				<span>Banner</span>
+        <span>Banner</span>
       </HeaderTemplate>
       <BodyTemplate>
         <span>datr.tech - UNDER DEVELOPMENT</span>
