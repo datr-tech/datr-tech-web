@@ -1,3 +1,3 @@
-## web-freight
+## README: @datr.tech/datr-tech-web
 
-> Public website for the freight service - IN DEVELOPMENT
+> Datr.tech public website - IN DEVELOPMENT
